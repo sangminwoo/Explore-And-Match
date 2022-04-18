@@ -1,0 +1,13 @@
+numpy
+tqdm
+scipy
+sklearn
+pandas
+matplotlib
+seaborn
+tabulate
+more_itertools
+opencv-python
+imutils
+nltk
+git+https://github.com/openai/CLIP.git
