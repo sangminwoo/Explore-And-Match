@@ -1,5 +1,7 @@
 # Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language
 
+Implementation of "[Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language](https://arxiv.org/abs/2201.10168)".
+
 ## Getting Started
 :warning: **Dependencies**:
 - `cuda == 10.2`
@@ -69,3 +71,13 @@ bash test_{dataset}.sh
 
 ### Configurations
 refer to `lib/configs.py`
+
+
+## Citation
+
+    @article{woo2022explore,
+      title={Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language},
+      author={Woo, Sangmin and Park, Jinyoung and Koo, Inyong and Lee, Sumin and Jeong, Minki and Kim, Changick},
+      journal={arXiv preprint arXiv:2201.10168},
+      year={2022}
+    }
