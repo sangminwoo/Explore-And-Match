@@ -6,8 +6,6 @@ from lib.utils.misc import dict_to_markdown
 parser = argparse.ArgumentParser(description='Video Grounding Transformer')
 parser.add_argument('--root', type=str, default='/ROOT_DIR',
                     help='root directory of dataset')
-parser.add_argument('--zero_shot', action='store_true',
-                    help='enable zero-shot video grounding with clip')
 parser.add_argument('--results_dir', type=str, default='results',
                     help='directory for saving results')
 parser.add_argument('--device', type=str, default='0',

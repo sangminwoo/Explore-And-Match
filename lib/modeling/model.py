@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from lib.modeling.backbone import build_backbone
 from lib.modeling.lvtr import build_lvtr
-from lib.modeling.zero_shot_clip import build_zeroshot_clip
 
 class VideoGroundingModel(nn.Module):
 
@@ -35,11 +34,7 @@ class VideoGroundingModel(nn.Module):
 
 def build_model(args):
 	backbone = build_backbone(args)
-
-	if args.zero_shot:
-		head = build_zeroshot_clip(args)
-	else:
-		head = build_lvtr(args)
+	head = build_lvtr(args)
 
 	model = VideoGroundingModel(
 		backbone,
