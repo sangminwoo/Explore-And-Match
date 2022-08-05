@@ -1,6 +1,6 @@
-# Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language
+# Explore-And-Match
 
-Implementation of "[Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language](https://arxiv.org/abs/2201.10168)".
+Implementation of "[Explore-And-Match](https://arxiv.org/abs/2201.10168)".
 
 ## Getting Started
 :warning: **Dependencies**:
@@ -75,9 +75,9 @@ refer to `lib/configs.py`
 
 ## Citation
 
-    @article{woo2022explore,
-      title={Explore and Match: A New Paradigm for Temporal Video Grounding with Natural Language},
-      author={Woo, Sangmin and Park, Jinyoung and Koo, Inyong and Lee, Sumin and Jeong, Minki and Kim, Changick},
-      journal={arXiv preprint arXiv:2201.10168},
-      year={2022}
-    }
+	@article{woo2022explore,
+	  title={Explore and Match: End-to-End Video Grounding with Transformer},
+	  author={Woo, Sangmin and Park, Jinyoung and Koo, Inyong and Lee, Sumin and Jeong, Minki and Kim, Changick},
+	  journal={arXiv preprint arXiv:2201.10168},
+	  year={2022}
+	}
